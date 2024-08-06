@@ -1,0 +1,1 @@
+<img src="/assets/img/title-free-sample-kit.gif" width="114" height="43" alt="Free Sample Kit" />

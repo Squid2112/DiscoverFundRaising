@@ -1,0 +1,16 @@
+#faq-table {
+	background: url(/assets/img/faq-background.jpg) repeat-y 0 0 transparent; 
+	width:600px; 
+	padding:0 0 9px 0;
+}
+
+#faq-table tr {
+	background-color:#fff;
+	margin-top:9px;
+	display:block;
+}
+
+#faq-table tr td p, #faq-table tr td li {
+	font-size:12px;
+}
+

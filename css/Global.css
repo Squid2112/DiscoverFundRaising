@@ -1,0 +1,578 @@
+@charset "utf-8";
+html, body { 
+	margin:0;
+	padding:0;
+	background-color:#B3D335;
+	font-family: arial, helvetica, sans-serif;
+}
+
+div {
+	padding:0;
+	margin:0;
+}
+
+a img { border:none; }
+
+a:link, a:active, a:visited {
+	color:#91278F;
+}
+
+a:hover {
+	color:#B9131A;
+}
+
+p, li, td {
+	font: 12px arial, helvetica, sans-serif;
+	color:#333;
+}
+
+
+.bold {
+	font-weight:bold;
+}
+
+.small-text {
+	font: 11px arial, helvetica, sans-serif;
+}
+
+h1 {
+	font:bold 24px arial, helvetica, sans-serif;
+	color:#92278f;
+}
+
+h2 {
+	font:bold 18px arial, helvetica, sans-serif;
+}
+
+
+h3 {
+	font: bold 14px arial, helvetica, sans-serif;
+	color:#333;
+	margin:20px 0 0 0;
+}
+
+.red-bold {
+	font: bold 12px arial, helvetica, sans-serif;
+	color:#ed1c24;
+}
+
+.redtext {
+	color:#B9131A;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.italic {
+	font-style:italic;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.text-right {
+	text-align:right;
+}
+
+.purpletext {
+	color:#92278f;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+	margin-right:9px;
+}
+
+.float-right-nm {
+	float:right;
+}
+
+div.outerMain { 
+	background: url(/assets/img/site-background.gif) repeat-y 0 0 #fff;
+	width:915px; 
+	margin:0 auto;
+	height:100%;
+}
+
+div.innerMain { 
+	width:830px;
+	margin:0 auto;
+	padding:0 20px 20px 20px;
+	height:100%;
+}
+
+div.header { 
+	width:830px;
+}
+
+div.mainBody { 
+	width:830px; 
+	margin:0 auto; 
+	padding:0;
+	background-color:#fff;
+	height:100%;
+ }
+
+
+#outer-nav {
+	margin:0;
+	padding:0;
+	background-color:#B3D335;
+	width:830px;
+	text-align:right;
+}
+
+#nav {
+	width:500px;
+	margin-left:434px;
+}
+
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#nav ul li {
+	float:left;
+	display:block;
+	padding: 3px 10px;
+	background-color:#d9e7a0;
+	border-left: solid 4px #902090;
+}
+
+#nav ul li a {
+	text-decoration:none;
+}
+
+#nav ul li.last {
+		border-right: solid 4px #902090;
+}
+
+.clear {
+	clear:both;
+}
+
+#logo {
+	position: relative;
+	top:-20px;
+	left:-15px;
+}
+
+#slogan {
+	border-left: solid 2px #000;
+}
+
+.black-btn {
+	border-radius: 14px; 
+	-moz-border-radius: 14px; 
+	-webkit-border-radius: 14px; 
+	background-color: #000000;
+	color:#fff;
+	font:bold 10px arial, hevletica, sans-serif;
+	padding:3px 8px;
+}
+
+
+.yellow-btn {
+	border-radius: 14px; 
+	-moz-border-radius: 14px; 
+	-webkit-border-radius: 14px; 
+	background-color: #fff200;
+	color:#000;
+	font:bold 10px arial, hevletica, sans-serif;
+	padding:3px 8px;
+}
+
+a.yellow-btn {
+	text-decoration:none;
+}
+
+#page,
+#footer {
+	margin:7px;
+}
+
+/**** request info form ****/
+
+.yellow-field {
+	background-color:#fff684;
+	width:106px;
+}
+
+#request-info label {
+	font: 11px arial, helvetica, sans-serif;
+}
+
+/***** footer style ****/
+
+
+#row-7 {
+	margin:20px 0;
+}
+
+#row-7 ul {
+	padding-left:0px;
+}
+
+#row-7 .left-grey {
+	background-color:#E6E6E6;
+	width:440px;
+	height:450px;
+	padding:10px 20px;
+	margin-right:16px;
+}
+
+#row-7 .right-grey {
+	background-color:#E6E6E6;
+	width:280px;
+	height:450px;
+	padding:10px 20px;
+}
+
+#row-9 {
+	height:60px;
+}
+
+#row-10 {
+	background-color:#e4f0cb;
+	width:796px;
+	padding:10px;
+	margin-top:20px;
+}
+
+.blackline {
+	display:block;
+	background-color:#000;
+	width:790px;
+	height:4px;
+	margin:10px auto;
+}
+
+ul.footer-links {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+ul.footer-links li {
+	float:left;
+	padding:5px 5px;
+	border-left: 2px solid #92278f;
+}
+
+
+ul.footer-links li:last-child {
+	border-right: 2px solid #92278f;
+}
+
+ul.footer-links li a {
+	font: 12px arial, helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+}
+
+#row-11 ul{
+	width:550px;
+	margin:20px auto;
+}
+
+
+/* INTERIOR PAGE STYLES */
+
+#page-content {
+	padding:20px 0px;
+	/*background: url(/assets/img/blue-background.jpg) no-repeat 30% 50% #fff;*/
+}
+
+
+#left-navigation {
+	float:left;
+	width:120px;
+	margin-right:10px;
+	text-align:center;
+}
+
+#left-navigation ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#left-navigation ul li {
+	background:url(/assets/img/back-left-sub-nav.jpg) no-repeat 50% 50% #fff;
+	width:120px; 
+	margin:5px 0;
+	padding:0;
+}
+
+#left-navigation ul li.header {
+	background:url(/assets/img/back-left-nav.jpg) no-repeat 50% 50% #fff;
+
+}
+
+#left-navigation ul li.header a {
+	font: bold 12px arial, helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+}
+
+#left-navigation ul li a {
+	font: 12px arial, helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+}
+
+#page-content .center {
+	width:410px;
+}
+
+#page-content .column-225 {
+	width:175px;
+	padding:0 10px;
+}
+
+#page-content .column-220 {
+	width:270px;
+	padding:0;
+	margin:0;
+}
+
+
+#page-content .column-single {
+		width:670px;
+		padding:0 10px 0 0;
+		margin:0;
+	}
+
+
+.page-title {
+	font: bold 24px arial, helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+}
+
+/***** PRODUCT PAGES WITH GREY BACKGROUND *****/
+.grey-back {
+	background:url(/assets/img/background-grey.jpg) no-repeat 0 0 #fff;
+	width:394px;
+	padding:0 8px;
+}
+
+.column-138 {
+	width:123px;
+	margin:0 4px;
+}
+
+.product-listing {
+	margin: 20px 0;
+}
+
+.product-listing td {
+	margin: 0;
+	padding:0;
+	font-size:11px;
+}
+
+
+
+/******* PROFIT CALCULATOR PAGE ********/
+.grey-back-gradient {
+	background:url(/assets/img/back-grey-gradiant.jpg) no-repeat 0 0 #fff;
+	padding:0 10px;
+}
+
+
+#profit-calculator {
+	background:url(/assets/img/back-profit-calculator.png) no-repeat 0 0 transparent;
+	width:188px;
+	height:148px;
+	padding:20px 10px 0 0;
+	margin-top:20px;
+
+}
+
+#profit-calculator table {
+	margin-left:15px;
+	margin-top:10px;
+}
+
+#profit-calculator td {
+	padding:1px;
+	margin:0;
+}
+
+.red-box {
+	border: solid 2px #CC3333;
+	width:22px;
+	height:12px;
+	font-size:9px;
+	margin-right:3px;
+}
+
+#profit-calculator label {
+		background:url(/assets/img/back-pc-label.jpg) no-repeat 0 0 transparent;
+		display:inline-block;
+		width:116px;
+		height:14px;
+		font: 8px/10px arial, helvetica, sans-serif;
+		paddng:2px;
+}
+
+.swish-with-links {
+	width:822px;
+	margin-left:8px;
+}
+
+#piggy-bank {
+	background:url(/assets/img/back-piggy-bank.png) no-repeat 0 0 transparent;
+	width:300px;
+	height:374px;
+	position:relative;
+	left:-60px;
+}
+
+#bubble-text {
+	position:relative;
+	top:270px;
+	left:10px;
+	width:245px;
+	height:114px;
+	text-align:center;
+}
+
+/*
+#page-content #page-center {
+	float:left;
+	width:280px;
+}
+
+#page-content #page-center .page-title {
+	margin:0 auto;
+}
+
+
+#page-content #page-right {
+	float:right;
+	width:200px;
+	margin:0 10px;
+}
+
+
+#page-content #page-right-2 {
+	float:right;
+	width:200px;
+	margin:10px;
+}
+
+#page-content .two-column {
+	float:left;
+	width:656px;
+}
+
+.left {
+	float:left;
+	width:40%;
+	margin:0 5%;
+}
+
+.right {
+	float:right;
+	width:40%;
+	margin:0 5%;
+}
+
+
+#page-content #page-right .box {
+	background-color:#09F;
+	width:180px;
+	padding:10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+	margin-bottom:20px;
+}
+
+
+#page-content #page-right .box p {
+	color:#fff;
+}
+
+#page-content #page-right .box p.yellow-text {
+	color:#ffcc00;
+	font:bold 14px arial, helvetica, sans-serif;
+	}
+*/
+
+.page-swish { 
+	height:110px;
+	background:url(/assets/img/swish2.png) no-repeat 0 0 #fff;
+	margin-bottom:20px;
+}
+
+
+ul.checkmark {
+	list-style-image:url(/assets/img/icon-checkmark.png)
+}
+
+/***** REFERRAL PAGE *****/
+#blue-boxes {
+	background:url(/assets/img/back-referral.jpg) no-repeat 0 0 #fff;
+	width:670px;
+	height:224px;
+	padding-top:10px;
+}
+
+#blue-boxes .white-title {
+	font:bold 15px arial, helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+}
+
+#blue-boxes .blue-box-text {
+	width:190px;
+	padding:8px 23px 0px 20px;
+	font-size: 10px;
+}
+
+#blue-boxes .blue-box-text p {
+	font-size: 10px;
+	line-height:12px;
+	margin:0;
+	padding:0;
+}
+
+#referral-form {
+	background: url(/assets/img/back-referral-blue.jpg) no-repeat 50% 50% #fff;
+	margin-top:20px;
+	padding-top:20px;
+}
+
+
+/**** PRODUCT PAGES ****/
+
+#product-page-intro{
+	background:url(/assets/img/product-background.jpg) no-repeat 0 0 #fff;
+	height:459px;
+	width:413px;
+	padding:0 10px;
+	margin-top:10px;
+}
+
+#product-page-box {
+	background:url(/assets/img/product-box-background.png) no-repeat 0 0 transparent;
+	width:232px;
+	height:299px;
+	
+}

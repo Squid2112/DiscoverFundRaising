@@ -1,0 +1,28 @@
+img#btnLogin {
+	padding:0px 6px 3px 0px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+img#btnSignup {
+	padding:0px 0px 3px 6px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+div#loginFrm {
+	position:relative;
+	width:370px;
+	left:-56px;
+	padding:3px 0px 12px 0px;
+}
+div#loginFrm input {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+input#txtEmail {
+	margin-right:3px;
+	width:110px;
+}
+input#txtPass {
+	width:90px;
+}

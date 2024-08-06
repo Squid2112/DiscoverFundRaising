@@ -1,0 +1,28 @@
+#double-dollars {
+	background: url(/assets/img/double-dollars-back.png) no-repeat 0 0 transparent;
+	width:240px;
+	height:298px;
+	padding:0;
+}
+
+#double-dollars p {
+	font: 10px/11px arial, helvetica, sans-serif;
+	margin:0;
+	padding:0 0 0 40px;
+}
+
+#double-dollars p:first-child {
+	margin-left:0;
+}
+
+.disclaimer {
+	font-size:10px;
+	line-height:12px;
+}
+
+
+
+label {
+	font:11px arial, helvetica, sans-serif;
+}
+
